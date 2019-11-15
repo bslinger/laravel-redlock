@@ -18,9 +18,9 @@
     }
   ],
   "require": {
-    "php": ">=5.4.0",
-    "illuminate/support": "^5.0",
-    "illuminate/console": "^5.0",
+    "php": ">=7.2.0",
+    "illuminate/support": "^6.5",
+    "illuminate/console": "^6.5",
     "predis/predis": "^1.1"
   },
   "require-dev": {
