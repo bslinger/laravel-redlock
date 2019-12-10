@@ -1,8 +1,9 @@
 {
-  "name": "thatsus/laravel-redlock",
+  "name": "ballyhoo-technic/laravel-redlock",
   "description": "Redis distributed locks for laravel",
   "license": "MIT",
   "keywords": ["redlock", "laravel redis lock", "redis lock"],
+  "version": "4.0.1",
   "authors": [
     {
       "name": "LibiChai",
