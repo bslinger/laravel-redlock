@@ -8,9 +8,11 @@ Provides a generic locking mechanism using Redis. Implements the locking standar
 
 This library was originally built by LibiChai based on the Redlock algorithm developed by antirez. The library was reworked by the team at That's Us, Inc.
 
+Regarding the new laravel 6.x LTS releases, Ballyhoo Werbeagentur GmbH did this fork, to provide a compatible version. All credits still goes to LibiChai and That's Us, Inc. Thank you for the greate work.
+
 ### Installation
 
-1. `composer require thatsus/laravel-redlock`
+1. `composer require ballyhoo-technic/laravel-redlock`
 2. Add `ThatsUs\RedLock\RedLockServiceProvider::class,` to the `providers` array in config/app.php
 3. Enjoy!
 
