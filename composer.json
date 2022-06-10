@@ -3,7 +3,7 @@
   "description": "Redis distributed locks for laravel",
   "license": "MIT",
   "keywords": ["redlock", "laravel redis lock", "redis lock"],
-  "version": "4.0.2",
+  "version": "4.0.3",
   "authors": [
     {
       "name": "LibiChai",
@@ -19,15 +19,14 @@
     }
   ],
   "require": {
-    "php": ">=7.2.0",
-    "illuminate/support": "6.0.*",
-    "illuminate/console": "6.0.*",
+    "php": ">=8.1",
+    "illuminate/support": "^9.0",
+    "illuminate/console": "^9.0",
     "predis/predis": "^1.1"
   },
   "require-dev": {
-    "orchestra/testbench": "~3.0",
-    "php-mock/php-mock-mockery": "^1.1",
-    "phpunit/phpunit": "~5.7"
+    "orchestra/testbench": "~7.5",
+    "phpunit/phpunit": "~8.0"
   },
   "autoload": {
     "psr-4": {
