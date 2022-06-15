@@ -9,7 +9,7 @@ class RedLockServiceProvider extends ServiceProvider{
     /**
      * bootstrap, add routes
      */
-    public function boot()
+    public function boot(): void
     {
 
     }
@@ -17,7 +17,7 @@ class RedLockServiceProvider extends ServiceProvider{
     /**
      * register the service provider
      */
-    public function register()
+    public function register(): void
     {
         // store to container
         $this->app->singleton('redlock', function ($app) {

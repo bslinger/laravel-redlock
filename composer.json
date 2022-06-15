@@ -3,7 +3,7 @@
   "description": "Redis distributed locks for laravel",
   "license": "MIT",
   "keywords": ["redlock", "laravel redis lock", "redis lock"],
-  "version": "4.0.4",
+  "version": "4.0.5",
   "authors": [
     {
       "name": "LibiChai",
@@ -16,12 +16,16 @@
     {
       "name": "Potsky",
       "email": "potsky@me.com"
+    },
+    {
+      "name": "Rene P. Mertins",
+      "email": "r.mertins@ballyhoo.de"
     }
   ],
   "require": {
     "php": ">=8.1",
     "laravel/framework": "^9.0",
-    "predis/predis": "^1.1"
+    "predis/predis": "^2.0"
   },
   "require-dev": {
     "orchestra/testbench": "~7.5",
